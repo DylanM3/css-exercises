@@ -27,3 +27,79 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* CODE HERE */
+
+/* HEADER AND FOOTER */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.footer {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-left: 16px;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+/* SIDEBAR */
+.sidebar {
+  min-width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+/* LINK STYLING */
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+/* CARDS */
+.card-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 24px;
+
+  background-color: rgb(248, 245, 248);
+}
+
+.card {
+  display: flex;
+  width: 350px;
+  padding: 16px;
+
+  background-color: white;
+  border: 1px solid rgb(233, 233, 231);
+  border-radius: 8px;
+}

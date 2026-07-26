@@ -24,3 +24,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* NEW CODE */
+
+body {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  max-width: 200px;
+  padding: 0px 52px;
+}
+
+.text {
+  padding: 10px;
+}
